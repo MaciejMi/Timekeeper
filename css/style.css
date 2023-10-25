@@ -55,6 +55,10 @@ body {
   padding: 1rem 2rem;
   border-radius: 10px;
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+.header__shadow button:hover {
+  background-color: rgb(200, 200, 200);
 }
 
 @media (min-width: 576px) {
