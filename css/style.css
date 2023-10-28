@@ -71,4 +71,12 @@ body {
   .header__shadow button {
     padding: 2rem 4rem;
   }
+  .header__image {
+    background-image: url("../img/big-bg.jpg");
+  }
+}
+@media (max-width: 576px) {
+  .header__image {
+    background-image: url("../img/small-bg.jpg");
+  }
 }/*# sourceMappingURL=style.css.map */
